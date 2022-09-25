@@ -1,0 +1,57 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+head,body{
+    font-family: 'Bangers', cursive;
+    font-family: 'Oswald', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-image: url(apple2.jpg);
+    background-size: cover;
+    color: aliceblue;
+
+}
+h1{
+    text-align: center;
+    margin-top: 5px;
+}
+h4{
+    text-align: center;
+    text-shadow: h-shadow,v-shadow, blur-radius, color red;
+}
+p{
+    width: 100%;
+    height: 50%;
+    margin-top: 120px;
+    font-weight: 350;
+    text-shadow: 5px;
+    color: black;
+    text-align: center;
+}
+a{
+    position: fixed;
+    position: relative;
+    top: 90px;
+    right: -20px;
+    color: whitesmoke;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.fix{
+    position: fixed;
+}
+.btn{
+    border-top: 20px red;
+    position: relative;
+    left: 47%;
+    top: 70%;
+    color:whitesmoke;
+    background-color: black;
+    border-color: black;
+}
+btn:hover{
+    transition:all 1s;
+    transform: scale(1.1);
+}
+
